@@ -205,7 +205,6 @@ withNumberOfChannels:(UInt32)numberOfChannels {
     [self.recorder appendDataFromBufferList:bufferList
                              withBufferSize:bufferSize];
   }
-  
 }
 
 #pragma mark - AVAudioPlayerDelegate
